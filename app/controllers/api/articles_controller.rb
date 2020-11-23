@@ -1,6 +1,6 @@
 class Api::ArticlesController < ApplicationController
   def index
-    @article = Article.all
+    @articles = Article.all
     render 'index', formats: :json, handlers: 'jbuilder'
   end
   def show
