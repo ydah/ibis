@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class="#f3e5f5 purple lighten-5 center">[Rails+Vue.js]~Bookshelf~</h1>
+  <div class="row #e3f2fd blue lighten-5">
+    <% @articles.each do |article| %>
+      <div class="col s4 m6">
+        <div class="card">
+          <span class="card-title">
+            <%= article.title %>
+          </span>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
