@@ -89,6 +89,8 @@ GEM
     e2mmap (0.1.0)
     erubi (1.10.0)
     execjs (2.7.0)
+    faker (2.14.0)
+      i18n (>= 1.6, < 2)
     ffi (1.13.1)
     foreman (0.87.2)
     globalid (0.4.2)
@@ -271,6 +273,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise
+  faker
   foreman
   jbuilder (~> 2.7)
   listen (~> 3.2)
